@@ -72,9 +72,15 @@ Estructura semántica.
 📸 Vistas
 
 Sección	Descripción
+
 🏠 Home	Presentación del sitio, productos destacados y contenido principal
+
 🛍️ Productos	Catálogo dinámico obtenido desde una API REST
+
 ⭐ Reseñas	Opiniones de usuarios organizadas con Grid
+
 📩 Contacto	Formulario funcional con validación y envío mediante Formspree
+
 🛒 Carrito	Gestión de productos, cantidades y total de compra
+
 
