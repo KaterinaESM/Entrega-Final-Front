@@ -17,15 +17,25 @@ Google Fonts
 
 📁 Estructura del proyecto
 ecommerce/
+
 ├── index.html
+
 ├── styles.css
+
 ├── README.md
+
 ├── img/
+
 │   └── productos/
+
 │   └── users/
+
 ├── pages/
+
 ├── script/
+
 ├── styles/
+
 
 ✨ Features
 Diseño responsive adaptable a distintos dispositivos.
