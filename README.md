@@ -69,6 +69,7 @@ Buenas prácticas de accesibilidad:
 Uso de atributos alt.
 Navegación mediante teclado.
 Estructura semántica.
+
 📸 Vistas
 
 Sección	Descripción
