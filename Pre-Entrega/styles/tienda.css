@@ -1,0 +1,34 @@
+.page-header {
+    background-image: url('../img/bgf.png');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 14px;
+}
+
+.page-header h2 {
+    color: #0000FF;
+}
+
+.page-header h3 {
+    color: white;
+    padding: 20px 0;
+}
+
+.ver-descripcion {
+    display: block;
+    text-align: center;
+    padding: 6px 0;
+    margin-bottom: 6px;
+    color: #0000FF;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendo Pilchas</title>
+    <link rel="icon" type="image/x-icon" href="../img/logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles/carrito.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img src="../img/logo.png" alt="Logo Vendo Pilchas" width="70px" height="70px">
+        </a>
+        <div>
+            <nav>
+                <ul id="navbar" class="navbar">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./tienda.html">Productos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <a href="#" id="close" class="close">
+                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+        <!-- Menú hamburguesa -->
+        <div class="mobile">
+            <a href="#">
+                <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+            </a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <main>
+
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>ELIMINAR</td>
+                        <td>IMAGEN</td>
+                        <td>PRODUCTO</td>
+                        <td>PRECIO</td>
+                        <td>CANTIDAD</td>
+                        <td>SUBTOTAL</td>
+                    </tr>
+                </thead>
+                <tbody id="tabla_carrito"></tbody>
+            </table>
+        </section>
+
+        <!-- ==================== CUPÓN Y TOTAL ==================== -->
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Aplicar Cupón</h3>
+                <div>
+                    <input type="text" placeholder="Ingresa tu cupón">
+                    <button class="btn-cart">Aplicar</button>
+                </div>
+            </div>
+            <div id="subtotal">
+                <h3>Total del Carrito</h3>
+                <table>
+                    <tr>
+                        <td>Subtotal del Carrito</td>
+                        <td id="total">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td>Envío</td>
+                        <td>Gratis</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong id="total">$0.00</strong></td>
+                    </tr>
+                </table>
+                <button class="btn-cart">Proceder al pago</button>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>Seguinos en:</p>
+        <ul> 
+            <li>
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.facebook.com" target="_blank" class="social-media">Facebook</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-x-twitter"></i>
+                <a href="https://www.x.com" target="_blank" class="social-media">X</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com" target="_blank" class="social-media">Instagram</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="../script/script.js"></script>
+    <script src="../script/tienda.js"></script>
+    <script src="../script/carrito.js"></script>
+</body>
+</html>

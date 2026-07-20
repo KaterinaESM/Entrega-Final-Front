@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendo Pilchas</title>
+    <link rel="icon" type="image/x-icon" href="../img/logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles/contacto.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img src="../img/logo.png" alt="Logo Vendo Pilchas" width="70px" height="70px">
+        </a>
+
+        <div>
+            <nav>
+                <ul id="navbar" class="navbar">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./tienda.html">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li>
+                        <a href="./carrito.html">
+                            <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <a href="#" id="close" class="close">
+                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+        <!-- Menú hamburguesa -->
+        <div class="mobile">
+            <a href="./carrito.html">
+                <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+            </a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <main>
+
+<!-- Formulario de contacto -->
+        <section class="form-details">
+            <form action="https://formspree.io/f/xredronp" method="POST" id="formContacto">
+                <h2 class="title">CONTACTANOS</h2>
+                <span>Te ayudamos si tuviste algún problema con tu compra.</span>
+
+                <!-- Campo: Nombre -->
+                <div class="campo-control">
+                    <input type="text" id="nombrec" name="nombre" placeholder="Nombre">
+                    <div class="texto-error"></div>
+                </div>
+
+                <!-- Campo: Correo electrónico -->
+                <div class="campo-control">
+                    <input type="text" id="correoc" name="correo" placeholder="Correo electrónico">
+                    <div class="texto-error"></div>
+                </div>
+
+                <!-- Campo: Asunto -->
+                <div class="campo-control">
+                    <input type="text" id="asuntoc" name="asunto" placeholder="Asunto">
+                    <div class="texto-error"></div>
+                </div>
+
+                <!-- Campo: Mensaje -->
+                <div class="campo-control">
+                    <textarea id="Mensaje" name="mensajec" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <div class="texto-error"></div>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+        </section>
+
+<!-- Mapa -->
+        <section class="seccion-mapa section-p1">
+            <h2>¿Dónde encontrarnos?</h2>
+            <p>Visitá nuestro Showroom en el Local 3 de la galería Bond Street</p>
+            <div class="mapa-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3216481361137!2d-58.39134809999999!3d-34.5960272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbb7c7ec3141%3A0x7c59989f4cafb32d!2sGaler%C3%ADa%20Bond%20Street!5e0!3m2!1ses!2scl!4v1779933703202!5m2!1ses!2scl"
+                    width="100%"
+                    height="400"
+                    style="border:0; border-radius: 20px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Ubicación de la tienda en Buenos Aires">
+                </iframe>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>Seguinos en:</p>
+        <ul> 
+            <li>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            </li>
+            <li>
+                <a href="https://www.x.com" target="_blank">X</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="../script/script.js"></script>
+</body>
+</html>

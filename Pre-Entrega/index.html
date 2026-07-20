@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendo Pilchas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.ico">
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img src="img/logo.png" alt="Logo Vendo Pilchas" width="70px" height="70px">
+        </a>
+        
+        <div>
+            <nav>
+                <ul id="navbar" class="navbar">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="pages/tienda.html">Productos</a></li>
+                    <li><a href="pages/contacto.html">Contacto</a></li>
+                    <li>
+                        <a href="pages/carrito.html">
+                            <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <a href="#" id="close" class="close">
+                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+        <!-- Menú hamburguesa -->
+        <div class="mobile">
+            <a href="pages/carrito.html">
+                <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+            </a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Pilchas Sale</h1>
+                <h2>¡Hasta 70% de descuento!</h2>
+                <p>Ponele onda a tu look, llevate una pilcha</p>
+                <a href="pages/tienda.html">
+                <button>Comprar</button>
+                </a>
+                
+            </div>
+        </section>
+
+        <section class="title">
+            <h1>Los más buscados</h1>
+        </section>
+
+        <section class="section-productos section-p1">
+            <h2>Remeras</h2>
+
+            <div class="productos-container">
+
+                <!-- Card de producto -->
+                <div class="producto">
+                    <img src="img/products/Reme_alien.png" alt="Reme Alien">
+                    <div class="producto-descripcion">
+                        <span>Vendo Remeras</span>
+                        <h5>Reme Alien</h5>
+                        <h4>$29.000</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Reme Alien" data-precio="29000" data-imagen="../img/products/Reme_alien.png">
+                        <i class="fa-solid fa-cart-arrow-down"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/products/Reme_ibu.png" alt="Reme Ibu">
+                    <div class="producto-descripcion">
+                        <span>Vendo Remeras</span>
+                        <h5>Reme Ibu</h5>
+                        <h4>$29.000</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Reme Ibu" data-precio="29000" data-imagen="../img/products/Reme_ibu.png">
+                        <i class="fa-solid fa-cart-arrow-down"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/products/Reme_jajas.png" alt="Reme Jajas">
+                    <div class="producto-descripcion">
+                        <span>Vendo Remeras</span>
+                        <h5>Reme Jajas</h5>
+                        <h4>$29.000</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Reme Jajas" data-precio="29000" data-imagen="../img/products/Reme_jajas.png">
+                        <i class="fa-solid fa-cart-arrow-down"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/products/Reme_llora.png" alt="Reme Llorasion">
+                    <div class="producto-descripcion">
+                        <span>Vendo Remeras</span>
+                        <h5>Reme Llorasion</h5>
+                        <h4>$29.000</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Reme Llorasion" data-precio="29000" data-imagen="../img/products/Reme_llora.png">
+                        <i class="fa-solid fa-cart-arrow-down"></i> Agregar
+                    </a>
+                </div>
+
+            </div>
+
+            <h2>Buzos</h2>
+
+            <div class="productos-container">
+
+                <!-- Card de producto -->
+                <div class="producto">
+                    <img src="img/products/Buzo_pancho.png" alt="Buzo Pancho">
+                    <div class="producto-descripcion">
+                        <span>Vendo Buzos</span>
+                        <h5>Buzo Pancho</h5>
+                        <h4>$45.000</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Buzo Pancho" data-precio="45000" data-imagen="../img/products/Buzo_pancho.png">
+                        <i class="fa-solid fa-cart-arrow-down"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/products/Buzo_sube.png" alt="Buzo Sube">
+                    <div class="producto-descripcion">
+                        <span>Vendo Buzos</span>
+                        <h5>Buzo Sube</h5>
+                        <h4>$45.000</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Buzo Sube" data-precio="45000" data-imagen="../img/products/Buzo_sube.png">
+                        <i class="fa-solid fa-cart-arrow-down"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/products/Buzo_lobo.png" alt="Buzo Lobo">
+                    <div class="producto-descripcion">
+                        <span>Vendo Buzos</span>
+                        <h5>Buzo Lobo</h5>
+                        <h4>$45.000</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Buzo Lobo" data-precio="45000" data-imagen="../img/products/Buzo_lobo.png">
+                        <i class="fa-solid fa-cart-arrow-down"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="img/products/Buzo_kitty.png" alt="Buzo Kitty">
+                    <div class="producto-descripcion">
+                        <span>Vendo Buzos</span>
+                        <h5>Buzo Kitty</h5>
+                        <h4>$45.000</h4>
+                    </div>
+                    <a class="carrito" data-nombre="Buzo Kitty" data-precio="45000" data-imagen="../img/products/Buzo_kitty.png">
+                        <i class="fa-solid fa-cart-arrow-down"></i> Agregar
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="banner section-m1">
+            <h2>SALE | SALE | SALE | SALE | SALE</h2>
+            <h3>La mejor pilcha, aprovecha las ofertas</h3>
+            <a href="pages/tienda.html">
+                <button>Ver más</button>
+            </a>
+            
+        </section>
+
+        <section class="section-resenias section-p1 section-m1">
+            <h2>Los pilcheros dicen:</h2>
+            <p>Opiniones reales de compradores verificados</p>
+            <div class="resenias-container">
+
+                <div class="resenia-card">
+                    <div class="resenia-estrellas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"+1000 de aura. Salí con la reme jajas y no me dejaban caminar, todos preguntaban dónde la compre."</p>
+                    <div class="resenia-autor">
+                        <img src="img/users/u1.png" alt="Joaco S.">
+                        <div>
+                            <h5>Joaco S.</h5><span>Buenos Aires</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resenia-card">
+                    <div class="resenia-estrellas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"A mi nieta le encantó. Quedé como la abu canchera."</p>
+                    <div class="resenia-autor">
+                        <img src="img/users/u2.png" alt="Marta L.">
+                        <div>
+                            <h5>Marta L.</h5><span>Neuquén</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resenia-card">
+                    <div class="resenia-estrellas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>"Le daría 5 estrellas pero no tengo más espacio en el ropero y quiero comprar maaas."</p>
+                    <div class="resenia-autor">
+                        <img src="img/users/u3.png" alt="Camila P.">
+                        <div>
+                            <h5>Camila P.</h5><span>Posadas</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div id="toast" class="toast-custom">
+            <span id="toastMensaje"></span>
+            <button id="btnCerrarToast">✕</button>
+        </div>
+    </main>
+    <footer>
+        <p>Seguinos en:</p>
+        <ul> 
+            <li>
+                <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.facebook.com" target="_blank" class="social-media">Facebook</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-x-twitter"></i>
+                <a href="https://www.x.com" target="_blank" class="social-media">X</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com" target="_blank" class="social-media">Instagram</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script/script.js"></script>
+    <script src="script/index.js"></script>
+    <script src="script/toast.js"></script>
+
+</body>
+</html>
